@@ -1,0 +1,117 @@
+*{
+    font-family: Gill Sans, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #333;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) ;
+
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.linux{
+    width: 90%;
+    animation: linux 3s;
+}
+.python{
+    width: 60%;
+    animation: python 3s;
+}
+.shell{
+    width: 75%;
+    animation: shell 3s;
+}
+.vba{
+    width: 40%;
+    animation: vba 3s;
+}
+.btn-box
+{
+    margin-top: 30px;
+    margin-left: 140px;
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),
+    0 0 25px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);;
+}
+.btn-box:hover
+{
+    box-shadow: 0 0 5px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),
+    0 0 25px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),0 0 50px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),
+    0 0 100px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),0 0 200px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+
+}
+@keyframes linux{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes shell{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes vba{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}

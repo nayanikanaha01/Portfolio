@@ -1,0 +1,50 @@
+*{
+    font-family: Gill Sans, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #333;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+.thankyou{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) ;
+}
+.p{
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+}
+.btn-box
+{
+    margin-top: 30px;
+    margin-left: 170px;
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),
+    0 0 25px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);;
+}
+.btn-box:hover
+{
+    box-shadow: 0 0 5px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),
+    0 0 25px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),0 0 50px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),
+    0 0 100px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%),0 0 200px linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+
+}
